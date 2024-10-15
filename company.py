@@ -6,6 +6,7 @@ class Driver:
         self.gender = gender
         self.address = address
         self.contact = contact
+        self.email = ""
     
     def __str__(self):
         return self.name
